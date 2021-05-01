@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Smart Greenhouse management system</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+      <!--<h1 id='head'>Smart Greenhouse management system</h1>-->
+      <div id='head'>
+          <img src="/static/Capture.JPG" alt="Smart Greenhouse management system" width="600" height="60">
+      </div>
+      <br>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <!-- start collapsed navbar-->
+              <div class="navbar-header">
+                  <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#main_navbar"
+                  aria-expanded="false">Menu</button>
+              </div><!-- / collapsed navbar-->
+
+              <!-- start un-collapsed navbar-->
+              <div
+              class="collapse navbar-collapse"
+              id="main_navbar">
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a href="https://btechproject.pythonanywhere.com/">Home</a></li>
+                      <li><a href="/ota">Number of modules</a></li>
+                      <li><a href="/rfadr">RF channel address</a></li>
+                      <li><a href="/field">Thingspeak Field number</a></li>
+                      <li><a href="/param">Trends</a></li>
+                  </ul>
+              </div><!-- / un-collapsed navbar-->
+
+          </div> <!-- /container -->
+      </nav>
+      <p>
+          <!--<li><a href="/ota">Update number of modules</a></li>
+          <li><a href="/rfadr">Add/remove RF channel address</a></li>
+          <li><a href="/field">Add Thingspeak field numbers for newly added module</a></li>
+          <li><a href="/param">Trends</a></li>-->
+          <h4><li>For editing number of modules, RF channel address and thingspeak field number refer navigation tab above</li>
+          <li>For detailed trends, dashboard and their settings,
+          <a href="https://thingspeak.com/channels/1163782/private_show">Click here</a>
+          (Login required)</li>
+          <li>For source code of this website,
+          <a href="https://github.com/rohitkulkarni725/btechproject/tree/main/django%20codes">Click here</a></li></h4>
+      </p>
+      <div id='head'>
+         <img class="col-lg-3" src="/static/image1.jpeg" alt="Greenhouse">
+         <img class="col-lg-3" src="/static/image2.jpeg" alt="Greenhouse irrigation">
+         <img class="col-lg-3" src="/static/image3.jpeg" alt="Greenhouse temperature sensor">
+         <img class="col-lg-3" src="/static/image4.jpeg" alt="Greenhouse humidity sensor">
+      </div>
+      <script src="/static/jquery.min.js"></script>
+      <script src="/static/bootstrap.min.js"></script>
+  </body>
+</html>
