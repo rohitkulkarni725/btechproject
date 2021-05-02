@@ -21,5 +21,7 @@ urlpatterns = [
     path('ota/', include('ota.urls')),
     path('admin/', admin.site.urls),
     path('param/', include('param.urls')),
+    path('rfadr/', include('rfadr.urls')),
+    path('field/', include('field.urls')),
     path('', TemplateView.as_view(template_name='home/main.html')),
 ]
